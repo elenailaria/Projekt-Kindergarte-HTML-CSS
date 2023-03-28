@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+.container-home{
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/bbc-creative-1w20Cysy1cg-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+h1{
+  margin: 0;
+  
+}
+.home-page{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #da47ff;
+    height: 100px;
+    font-size: 4rem;
+    opacity: 0.6;
+  }
+  .menu-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  .menu-home:hover{
+    text-decoration: underline;
+    color: #da47ff;
+  }

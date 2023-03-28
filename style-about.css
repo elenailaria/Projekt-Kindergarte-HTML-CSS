@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+.container-about{
+  width: 100%;
+  height: 100vh;
+    background-image: url(./images/gautam-arora-78Ae6N7rNvI-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1{
+    margin: 0;
+}
+.page-about{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #2ed522;
+    height: 100px;
+    font-size: 4rem;
+    opacity: 0.6;
+  }
+  .menu-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+  }
+  .menu-about:hover{
+    text-decoration: underline;
+    color: #2ed522;
+  }
